@@ -2,8 +2,11 @@ import React from 'react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service - YourFiles | Free PDF & Image Tools',
+  title: 'Terms of Service - Free PDF & Image Tools',
   description: 'Terms of service and usage conditions for YourFiles online utility tools.',
+  alternates: {
+    canonical: '/terms',
+  },
 };
 
 export default function TermsPage() {

@@ -3,8 +3,11 @@ import { Metadata } from 'next';
 import { Mail, MessageSquare, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - YourFiles | Free PDF & Image Tools',
+  title: 'Contact Us - Free PDF & Image Tools',
   description: 'Get in touch with the YourFiles team for feedback, bug reports, or feature suggestions.',
+  alternates: {
+    canonical: '/contact',
+  },
 };
 
 export default function ContactPage() {

@@ -5,9 +5,6 @@ import Footer from '../components/layout/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://yourfiles-steel.vercel.app'),
-  alternates: {
-    canonical: '/',
-  },
   title: {
     default: 'YourFiles - Free PDF & Image Tools',
     template: '%s | YourFiles',

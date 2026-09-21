@@ -6,8 +6,11 @@ import ToolCard from '../../components/ui/ToolCard';
 import { ShieldCheck, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'PDF Tools - Free Online PDF Utilities | YourFiles',
+  title: 'PDF Tools - Free Online PDF Utilities',
   description: 'Merge, split, compress, and convert PDF files directly in your browser. Free, fast, and no server uploads.',
+  alternates: {
+    canonical: '/pdf',
+  },
   openGraph: {
     title: 'Free PDF Tools - Fast & Private | YourFiles',
     description: 'Process PDF documents client-side in your browser. Fast, browser-local, and free to use.',

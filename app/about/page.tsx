@@ -4,8 +4,11 @@ import Link from 'next/link';
 import { ShieldCheck, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Us - YourFiles | Free PDF & Image Tools',
+  title: 'About Us - Free PDF & Image Tools',
   description: 'Learn about YourFiles, our mission to provide fast, free, account-free online PDF and image utilities powered by client-side browser technology.',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 export default function AboutPage() {

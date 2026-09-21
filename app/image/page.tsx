@@ -6,8 +6,11 @@ import ToolCard from '../../components/ui/ToolCard';
 import { ShieldCheck, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Image Tools - Free Online Image Utilities | YourFiles',
+  title: 'Image Tools - Free Online Image Utilities',
   description: 'Compress, resize, and convert JPG, PNG, and WebP images directly in your browser. Free, fast, and private.',
+  alternates: {
+    canonical: '/image',
+  },
   openGraph: {
     title: 'Free Image Tools - Fast & Private | YourFiles',
     description: 'Compress, resize, and convert images locally in your browser with no account needed.',

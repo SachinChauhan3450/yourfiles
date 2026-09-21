@@ -3,8 +3,11 @@ import { Metadata } from 'next';
 import { ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - YourFiles | Free PDF & Image Tools',
+  title: 'Privacy Policy - Free PDF & Image Tools',
   description: 'Read our privacy policy. Learn how YourFiles processes files locally in your browser without server uploads or server-side document storage.',
+  alternates: {
+    canonical: '/privacy',
+  },
 };
 
 export default function PrivacyPage() {
