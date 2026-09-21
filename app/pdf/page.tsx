@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Merge, split, compress, and convert PDF files directly in your browser. Free, fast, and no server uploads.',
   openGraph: {
     title: 'Free PDF Tools - Fast & Private | YourFiles',
-    description: 'Process PDF documents client-side in your browser. Fast, private, and 100% free.',
+    description: 'Process PDF documents client-side in your browser. Fast, browser-local, and free to use.',
   },
 };
 

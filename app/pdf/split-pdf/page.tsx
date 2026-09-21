@@ -3,7 +3,7 @@ import SplitPdfClient from './SplitPdfClient';
 
 export const metadata: Metadata = {
   title: 'Split PDF - Extract Pages from PDF Online for Free | YourFiles',
-  description: 'Split PDF files and extract individual pages or custom ranges (e.g. 1-3, 5). Fast, private, and 100% free with local browser processing.',
+  description: 'Split PDF files and extract individual pages or custom ranges (e.g. 1-3, 5). Fast, browser-local, and free to use.',
   openGraph: {
     title: 'Split PDF Online - Free PDF Page Extractor | YourFiles',
     description: 'Extract specific pages or page ranges from any PDF document locally in your browser.',

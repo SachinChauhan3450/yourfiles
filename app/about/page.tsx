@@ -56,7 +56,7 @@ export default function AboutPage() {
           Key Principles
         </h2>
         <ul style={{ paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-          <li><strong>Zero Cost:</strong> 100% free with no hidden charges, tier restrictions, or watermarks.</li>
+          <li><strong>Free of Charge:</strong> Free to use without hidden fees, paid tiers, or watermarks.</li>
           <li><strong>Zero Accounts:</strong> No signups, email confirmations, or password logins.</li>
           <li><strong>Zero Latency:</strong> No uploading or cloud queue delays.</li>
           <li><strong>Honest Metrics:</strong> We report actual byte savings without fabricated compression statistics.</li>

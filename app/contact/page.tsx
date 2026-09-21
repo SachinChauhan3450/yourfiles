@@ -87,11 +87,11 @@ export default function ContactPage() {
                 Bug Reports
               </div>
               <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginBottom: '8px' }}>
-                Please specify your browser & device:
+                Include browser name &amp; device details:
               </div>
-              <span style={{ color: 'var(--text-main)', fontWeight: 500, fontSize: '0.88rem' }}>
-                Include browser name & version
-              </span>
+              <a href="mailto:probhiya456@gmail.com?subject=Bug%20Report%20-%20YourFiles" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.9rem' }}>
+                probhiya456@gmail.com
+              </a>
             </div>
           </div>
         </div>

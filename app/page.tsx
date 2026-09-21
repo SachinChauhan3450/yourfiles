@@ -10,7 +10,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'YourFiles - Free PDF & Image Tools',
-  description: 'Convert, compress, resize, and manage your PDF and image files directly in your browser. 100% free, fast, and no server uploads.',
+  description: 'Convert, compress, resize, and manage your PDF and image files directly in your browser. Free to use, fast, and no server uploads.',
   openGraph: {
     title: 'YourFiles - Free PDF & Image Tools',
     description: 'Convert, compress, resize, and manage your files online. No accounts, no fees, private browser-local processing.',

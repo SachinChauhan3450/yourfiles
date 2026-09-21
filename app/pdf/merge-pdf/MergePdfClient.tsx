@@ -123,7 +123,7 @@ export default function MergePdfClient() {
   const faqs = [
     {
       question: 'Are my PDF files uploaded to a remote server?',
-      answer: 'No. All PDF merging happens entirely inside your browser using client-side WebAssembly and JavaScript. Your files never leave your computer.',
+      answer: 'No. All PDF merging happens entirely inside your browser using client-side WebAssembly and JavaScript. Files are processed locally in your browser and aren\'t uploaded to our servers.',
     },
     {
       question: 'Is there a limit on how many PDFs I can merge?',

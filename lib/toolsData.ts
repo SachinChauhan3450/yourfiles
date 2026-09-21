@@ -5,7 +5,7 @@ export const PDF_TOOLS: ToolMeta[] = [
     id: 'merge-pdf',
     title: 'Merge PDF',
     tagline: 'Combine multiple PDFs into a single document in any order.',
-    description: 'Combine two or more PDF files into a single document. Drag and drop to reorder pages and files before merging. Fast and secure.',
+    description: 'Combine two or more PDF files into a single document. Drag and drop to reorder pages and files before merging. Fast and browser-local.',
     category: 'pdf',
     path: '/pdf/merge-pdf',
     iconName: 'Files',
