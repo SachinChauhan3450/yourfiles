@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  verification: {
+    google: 'Zuxg3qEiXrAnqaBSYY2jNYVzU-q4zxV4Z88t5HthWl8',
+  },
   openGraph: {
     title: 'YourFiles - Free PDF & Image Tools',
     description: 'Convert, compress, resize, and manage your files online. No accounts, no fees, private browser-local processing.',
