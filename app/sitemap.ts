@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { ALL_TOOLS } from '../lib/toolsData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://yourfiles.local';
+  const baseUrl = 'https://yourfiles-steel.vercel.app';
   const now = new Date();
 
   const coreRoutes: MetadataRoute.Sitemap = [

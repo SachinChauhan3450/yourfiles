@@ -4,7 +4,10 @@ import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://yourfiles.local'),
+  metadataBase: new URL('https://yourfiles-steel.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'YourFiles - Free PDF & Image Tools',
     template: '%s | YourFiles',
@@ -27,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'YourFiles - Free PDF & Image Tools',
     description: 'Fast, free, and privacy-respecting online PDF and image utilities with local browser processing.',
-    url: 'https://yourfiles.local',
+    url: 'https://yourfiles-steel.vercel.app',
     siteName: 'YourFiles',
     locale: 'en_US',
     type: 'website',
