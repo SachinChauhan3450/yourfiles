@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Files, Image as ImageIcon, Menu, X, ShieldCheck } from 'lucide-react';
+import { BrandIcon } from '../ui/BrandLogo';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -32,47 +33,33 @@ export default function Header() {
         justifyContent: 'space-between',
         height: '64px',
       }}>
-        {/* Brand Logo with Subtle Personality */}
+        {/* Brand Logo & Wordmark */}
         <Link
           href="/"
-          style={{ display: 'flex', alignItems: 'center', gap: '10px' }}
+          style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}
           className="brand-logo"
+          aria-label="YourFiles homepage"
         >
-          <div style={{
-            width: '34px',
-            height: '34px',
-            borderRadius: '10px',
-            background: 'var(--brand-gradient)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#ffffff',
+          <div
+            className="logo-icon"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              transition: 'transform var(--transition-fast)',
+            }}
+          >
+            <BrandIcon size={32} />
+          </div>
+          <span style={{
+            fontSize: '1.2rem',
             fontWeight: 800,
-            fontSize: '1.05rem',
-            boxShadow: '0 2px 8px rgba(37, 99, 235, 0.25)',
-            transition: 'transform var(--transition-fast)',
-          }} className="logo-icon">
-            Y
-          </div>
-          <div>
-            <div style={{
-              fontSize: '1.15rem',
-              fontWeight: 800,
-              letterSpacing: '-0.025em',
-              lineHeight: 1.1,
-              color: 'var(--text-main)',
-            }}>
-              YourFiles
-            </div>
-            <div style={{
-              fontSize: '0.7rem',
-              color: 'var(--text-muted)',
-              fontWeight: 500,
-              letterSpacing: '0.01em',
-            }}>
-              Free PDF & Image Tools
-            </div>
-          </div>
+            letterSpacing: '-0.028em',
+            lineHeight: 1,
+            color: 'var(--text-main)',
+          }}>
+            YourFiles
+          </span>
         </Link>
 
         {/* Desktop Navigation with Smooth Pill Hover */}

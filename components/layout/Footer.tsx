@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ShieldCheck, Zap, Lock } from 'lucide-react';
 import { PDF_TOOLS, IMAGE_TOOLS } from '../../lib/toolsData';
+import { BrandIcon } from '../ui/BrandLogo';
 
 export default function Footer() {
   return (
@@ -97,22 +98,11 @@ export default function Footer() {
         }}>
           {/* Brand Info */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
-              <div style={{
-                width: '28px',
-                height: '28px',
-                borderRadius: 'var(--radius-sm)',
-                backgroundColor: 'var(--primary)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: '#ffffff',
-                fontWeight: 700,
-                fontSize: '0.95rem',
-              }}>
-                Y
-              </div>
-              <span style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-main)' }}>YourFiles</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '9px', marginBottom: '12px' }}>
+              <BrandIcon size={26} />
+              <span style={{ fontSize: '1.15rem', fontWeight: 800, letterSpacing: '-0.025em', color: 'var(--text-main)' }}>
+                YourFiles
+              </span>
             </div>
             <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', lineHeight: 1.6 }}>
               A fast, free utility website for everyday PDF and image tasks without accounts or server storage.
