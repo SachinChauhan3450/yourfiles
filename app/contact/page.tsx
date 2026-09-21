@@ -54,8 +54,8 @@ export default function ContactPage() {
               <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginBottom: '8px' }}>
                 For questions or suggestions:
               </div>
-              <a href="mailto:support@yourfiles.local" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.9rem' }}>
-                support@yourfiles.local
+              <a href="mailto:probhiya456@gmail.com" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.9rem' }}>
+                probhiya456@gmail.com
               </a>
             </div>
           </div>
